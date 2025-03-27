@@ -8,5 +8,5 @@ gem 'pitchfork', '0.10.0'
 # moderate - https://github.com/advisories/GHSA-7g2v-jj9q-g3rg
 gem 'rack', '3.1.0'
 # critical - https://github.com/advisories/GHSA-289m-2964-f8q5
-# gem 'bolt', '3.27.0'
+gem 'bolt', '3.27.0'
 
