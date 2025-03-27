@@ -34,7 +34,7 @@ jobs:
         # Commonly enabled options, see https://github.com/actions/dependency-review-action#configuration-options for all available options.
         with:
           comment-summary-in-pr: always
-          fail-on-severity: moderate
+          fail-on-severity: critical
           deny-licenses: GPL-3.0-or-later, BUSL-1.1
           show-openssf-scorecard: true
         #   retry-on-snapshot-warnings: true
