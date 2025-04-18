@@ -35,6 +35,7 @@ jobs:
         with:
           comment-summary-in-pr: always
           fail-on-severity: critical
+          allow-licenses: CC-BY-4.0, MIT, OFL-1.1
           deny-licenses: GPL-3.0-or-later, BUSL-1.1
           show-openssf-scorecard: true
         #   retry-on-snapshot-warnings: true
