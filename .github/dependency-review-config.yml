@@ -1,0 +1,5 @@
+comment_summary_in_pr: always
+fail_on_severity: critical
+allow_licenses: CC-BY-4.0, MIT, OFL-1.1
+show_openssf_scorecard: true
+# retry_on-snapshot_warnings: true
