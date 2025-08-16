@@ -30,11 +30,7 @@ jobs:
       - name: 'Checkout repository'
         uses: actions/checkout@v4
       - name: 'Dependency Review'
-        uses: actions/dependency-review-action@v4
+        uses: actions/dependency-review-action@main
         # Commonly enabled options, see https://github.com/actions/dependency-review-action#configuration-options for all available options.
         with:
-          comment-summary-in-pr: always
-          fail-on-severity: critical
-          deny-licenses: GPL-3.0-or-later, BUSL-1.1
-          show-openssf-scorecard: true
-        #   retry-on-snapshot-warnings: true
+          config-file: './.github/dependency-review-config.yml'
