@@ -37,5 +37,5 @@ jobs:
           fail-on-severity: critical
           deny-licenses: GPL-3.0-or-later, BUSL-1.1
           show-openssf-scorecard: false
-          show_patched_versions: true
+          show-patched-versions: true
         #   retry-on-snapshot-warnings: true
