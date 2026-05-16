@@ -1,0 +1,11 @@
+- uses: actions/github-script@v9
+  env:
+    TITLE: ${{ github.event.pull_request.title }}
+  with:
+    script: |
+      const title = process.env.TITLE;
+      if (title.startsWith('octocat')) {
+        console.log("PR title starts with 'octocat'");
+      } else {
+        console.error("PR title did not start with 'octocat'");
+      }
